@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit" ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --color-backgorund: #fff;
+    --color-paragraphs: #814531;
+    --color-destaque: #773b54;
+    --color-background-destaque: #fff7fc;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+
+    height: 100%;
+    padding: 4rem 0;
+    background-color: rgba(243,229,216,255);
+}
+
+.main {
+    border: solid 1px var(--color-backgorund);
+    border-radius: 0.5rem;
+    background-color: var(--color-backgorund);
+
+    width: 650px;
+}
+
+img {
+    width: 650px;
+    border-radius: 2.6rem;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: "Young serif", serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: "Young serif", serif;
+    font-weight: 500;
+    color: rgba(118,57,35,255);
+}
+.hero,
+.hero__background {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hero__background {
+    background-color: var(--color-background-destaque);
+    max-width: 580px;
+    height: 180px;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero__title-table {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: larger;
+    font-weight: 700;
+    font-family: "Outfit" ,sans-serif;
+    color: var(--color-destaque);
+}
+
+.hero__table {
+    padding-left: 1.7rem;
+    opacity: 90%;
+    color: var(--color-destaque);
+}
+
+li {
+    padding: 0.5rem;
+    
+}
+
+strong {
+    font-weight: 600;
+    color: rgb(66, 60, 60);
+}
+
+
+.hero__table-ingredients {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    opacity: 75%;
+    
+}
+
+.hero__ingredients {
+    font-size: 1.7rem;   
+}
+
+hr {
+    width: 600px;
+    margin-left: 1.5rem;
+    opacity: 50%;
+}
+
+.hero__instructions {
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
+    
+}
+
+.hero__instructions-table {
+    padding-left: 1.5rem;
+    
+}
+
+.hero__nutrition {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero__nutrition-text {
+    padding-bottom: 1.5rem;
+    opacity: 80%;
+}
+
+.hero__tableNutrition {
+    display: flex;
+    padding-left: 2rem;
+    opacity: 70%;
+    font-weight: 500;
+}
+
+.hero__nutrition-table2 {
+    padding-left: 12rem;
+    color: var(--color-paragraphs);
+    font-weight: 900;
+}
+
+.hero__nutrition-table1 > ul {
+    padding: 1rem;
+}
+
+.hero__nutrition-table2 > ul {
+    padding: 1rem;
+}
